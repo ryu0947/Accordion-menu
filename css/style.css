@@ -66,3 +66,27 @@ body {
 .bottom-line {
   bottom: 0px;
 }
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.accordion {
+  margin-top: 50px;
+}
+
+.accordion-menu {
+  background: #000000;
+  padding: 15px 25px;
+}
+
+.accordion-list {
+  background: #f7f7f7;
+  color: #333333;  
+}
+
+.accordion-item {
+  padding: 15px 25px;
+  border-bottom: 1px solid #afaeae;
+}
