@@ -80,7 +80,7 @@ body {
 
 .accordion-text,
 .accordion-icon {
-  cursor: pointer;
+  color: #ffffff;
 }
 
 .accordion-icon {
