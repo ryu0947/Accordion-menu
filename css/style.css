@@ -94,6 +94,7 @@ body {
   height: 0;
   background: #f7f7f7;
   color: #333333;
+  transition: all 0.5s;
 }
 
 .accordion-list.active {
