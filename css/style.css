@@ -77,8 +77,19 @@ body {
 }
 
 .accordion-menu {
+  display: flex;
   background: #000000;
   padding: 15px 25px;
+}
+
+.accordion-text,
+.accordion-icon {
+  cursor: pointer;
+}
+
+.accordion-icon {
+  font-weight: bold;
+  margin-left: auto;
 }
 
 .accordion-list {
