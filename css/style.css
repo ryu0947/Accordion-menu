@@ -69,11 +69,7 @@ body {
 
 .container {
   width: 500px;
-  margin: 0 auto;
-}
-
-.accordion {
-  margin-top: 50px;
+  margin: 50px auto 0;
 }
 
 .accordion-menu {
@@ -93,8 +89,17 @@ body {
 }
 
 .accordion-list {
+  opacity: 0;
+  overflow: hidden;
+  height: 0;
   background: #f7f7f7;
-  color: #333333;  
+  color: #333333;
+}
+
+.accordion-list.active {
+  opacity: 1;
+  overflow: visible;
+  height: auto;
 }
 
 .accordion-item {
