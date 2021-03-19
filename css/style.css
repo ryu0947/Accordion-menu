@@ -75,6 +75,7 @@ body {
 .accordion-menu {
   background: #000000;
   padding: 15px 25px;
+  border-bottom: 1px solid #ffffff;
 }
 
 .accordion-btn {
@@ -82,16 +83,17 @@ body {
 }
 
 .accordion-list {
-  opacity: 0;
   height: 0;
+  visibility: hidden;
+  overflow: hidden;
   background: #f7f7f7;
   color: #333333;
   transition: all 0.5s;
 }
 
 .accordion-list.open {
-  opacity: 1;
-  height: auto;
+  visibility: visible;
+  height: 275px;
 }
 
 .accordion-item {
