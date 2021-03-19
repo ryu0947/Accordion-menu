@@ -73,33 +73,24 @@ body {
 }
 
 .accordion-menu {
-  display: flex;
   background: #000000;
   padding: 15px 25px;
 }
 
-.accordion-text,
-.accordion-icon {
+.accordion-btn {
   color: #ffffff;
-}
-
-.accordion-icon {
-  font-weight: bold;
-  margin-left: auto;
 }
 
 .accordion-list {
   opacity: 0;
-  overflow: hidden;
   height: 0;
   background: #f7f7f7;
   color: #333333;
   transition: all 0.5s;
 }
 
-.accordion-list.active {
+.accordion-list.open {
   opacity: 1;
-  overflow: visible;
   height: auto;
 }
 
