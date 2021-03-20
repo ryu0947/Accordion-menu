@@ -81,10 +81,28 @@ body {
   border-bottom: 1px solid #ffffff;
 }
 
-.accordion-list {
-  display: none;
+.accordion-list,
+.accordion-list-js {
   background: #f7f7f7;
   color: #333333;
+}
+
+.accordion-list {
+  display: none;
+}
+
+.accordion-list-js {
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.accordion-list-js.open {
+  height: 275px;
+  opacity: 1;
+  visibility: visible;
 }
 
 .accordion-item {
