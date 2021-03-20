@@ -72,28 +72,19 @@ body {
   margin: 50px auto 0;
 }
 
-.accordion-menu {
+.accordion-btn {
+  width: 100%;
+  text-align: left;
+  color: #ffffff;
   background: #000000;
   padding: 15px 25px;
   border-bottom: 1px solid #ffffff;
 }
 
-.accordion-btn {
-  color: #ffffff;
-}
-
 .accordion-list {
-  height: 0;
-  visibility: hidden;
-  overflow: hidden;
+  display: none;
   background: #f7f7f7;
   color: #333333;
-  transition: all 0.5s;
-}
-
-.accordion-list.open {
-  visibility: visible;
-  height: 275px;
 }
 
 .accordion-item {
