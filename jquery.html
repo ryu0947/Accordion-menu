@@ -4,26 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>jQueryでローディングアニメーション</title>
+    <title>JavaScriptでアコーディオンメニュー</title>
   </head>
   <body>
-    <div id="js-loading" class="loading">
-      <div class="loading-icon"></div>
-    </div>
     <header class="header">
-      <h1 class="title">jQuery</h1>
+      <h1 class="title">JavaScript</h1>
       <button id="js-hamburger" class="hamburger">
         <span id="js-top-line" class="top-line"></span>
         <span id="js-center-line" class="center-line"></span>
         <span id="js-bottom-line" class="bottom-line"></span>
       </button>
     </header>
-    <div class="img"><img src="img/work-731198_1920.jpg" alt="" /></div>
-    <div class="img"><img src="img/10MB.png" alt="" /></div>
-    <div class="img"><img src="img/20MB.png" alt="" /></div>
-    <div class="img"><img src="img/30MB.png" alt="" /></div>
-    <div class="img"><img src="img/40MB.png" alt="" /></div>
+    <div class="container">
+      <div class="accordion">
+        <div class="accordion-menu">
+          <button data-id="js-button1" class="accordion-btn">
+            アコーディオン1(クリック！)
+          </button>
+        </div>
+        <ul id="js-button1" class="accordion-list">
+          <li class="accordion-item">アコーディオン1</li>
+          <li class="accordion-item">アコーディオン2</li>
+          <li class="accordion-item">アコーディオン3</li>
+          <li class="accordion-item">アコーディオン4</li>
+          <li class="accordion-item">アコーディオン5</li>
+        </ul>
+        <div class="accordion-menu">
+          <button data-id="js-button2" class="accordion-btn">
+            アコーディオン2(クリック！)
+          </button>
+        </div>
+        <ul id="js-button2" class="accordion-list">
+          <li class="accordion-item">アコーディオン1</li>
+          <li class="accordion-item">アコーディオン2</li>
+          <li class="accordion-item">アコーディオン3</li>
+          <li class="accordion-item">アコーディオン4</li>
+          <li class="accordion-item">アコーディオン5</li>
+        </ul>
+        <div class="accordion-menu">
+          <button data-id="js-button3" class="accordion-btn">
+            アコーディオン3(クリック！)
+          </button>
+        </div>
+        <ul id="js-button3" class="accordion-list">
+          <li class="accordion-item">アコーディオン1</li>
+          <li class="accordion-item">アコーディオン2</li>
+          <li class="accordion-item">アコーディオン3</li>
+          <li class="accordion-item">アコーディオン4</li>
+          <li class="accordion-item">アコーディオン5</li>
+        </ul>
+      </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="js/loading-animation2.js"></script>
+    <script src="js/accordion-menu1.js"></script>
   </body>
 </html>
